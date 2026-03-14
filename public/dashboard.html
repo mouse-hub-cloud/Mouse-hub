@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Dashboard - MouseHub</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header>MouseHub Dashboard</header>
+<div class="container">
+    <h2>Welcome, User</h2>
+    <p>Balance: KES <span id="balance">0</span></p>
+
+    <h3>Referral Link</h3>
+    <p id="referral">https://mouse-hub-3nls.onrender.com/?ref=USER123</p>
+
+    <h3>Deposit / Withdraw</h3>
+    <input type="number" id="amount" placeholder="Amount in KES">
+    <button onclick="deposit()">Deposit</button>
+    <button onclick="withdraw()">Withdraw</button>
+
+    <h3>Activity Feed</h3>
+    <div id="activity-feed" style="height:200px; overflow-y:auto; border:1px solid #fff; padding:5px;"></div>
+</div>
+<script src="js/dashboard.js"></script>
+</body>
+</html>
