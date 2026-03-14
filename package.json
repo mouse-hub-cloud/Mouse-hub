@@ -1,13 +1,12 @@
-<!DOCTYPE html>
-<html>
-<head>
-<title>MouseHub</title>
-</head>
-
-<body style="background:black;color:white;font-family:Arial;text-align:center;padding-top:100px">
-
-<h1>Welcome to MouseHub</h1>
-<p>The platform is now live.</p>
-
-</body>
-</html>
+{
+  "name": "mousehub",
+  "version": "1.0.0",
+  "description": "MouseHub platform",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
